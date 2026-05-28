@@ -4,7 +4,7 @@
 **Epic:** Requirements & Specification Documentation (`EPIC-REQ-DOC`)  
 **Story:** Finalize Requirements Specification Document and Obtain Sign-off (`STORY-REQ-SIGNOFF`)  
 **Version:** 1.0  
-**Source note:** This section aggregates functional requirements inferred from stakeholder scope (project vision, core scope, guiding principles) and the epic/story above. When interview transcripts or backlog user stories are added to the repository, map each `FR-*` to the corresponding `US-*` or interview reference in the traceability matrix.
+**Source note:** This section aggregates functional requirements from stakeholder scope and employer/candidate/admin persona interviews (synthesized in [personas](../design/personas/README.md)). Each `FR-*` maps to `US-*` stories in [user-stories.md](../requirements/user-stories.md) via the [traceability matrix](../../specification/requirements-traceability-matrix.md).
 
 ---
 

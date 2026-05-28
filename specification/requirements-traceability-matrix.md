@@ -2,7 +2,7 @@
 
 This matrix links each requirement identifier to one or more user story identifiers. Use it in Confluence by copying the **Confluence storage / wiki table** block below, or paste the **Markdown table** into Confluence if your space supports Markdown.
 
-**Source note:** No Requirements Document or user story backlog file was present in this repository. Requirement and story IDs below are defined from the Job Portal project overview (Core Scope, Epic, and related story). Replace or extend IDs to match your canonical requirements register and backlog tool before sign-off.
+**Source note:** Requirement and story IDs align with [functional requirements](../docs/requirements-specification/functional-requirements-section.md) (`FR-*`), [user stories](../docs/requirements/user-stories.md) (`US-*` with acceptance criteria), and [personas](../docs/design/personas/README.md). Update this matrix when backlog IDs change before formal sign-off (`REQ-DOC-002`).
 
 ---
 
@@ -59,26 +59,28 @@ Paste into Confluence **Wiki Markup** or use **Insert → Markup** if your insta
 
 ## User story reference (for ID alignment)
 
-| User Story ID | Title / scope |
-|---------------|----------------|
-| US-001 | Employer registration and authentication |
-| US-002 | Candidate registration and authentication |
-| US-003 | Admin authentication and access |
-| US-004 | Role-based access control |
-| US-005 | Employer job posting and listing management |
-| US-006 | Employer application management |
-| US-007 | Candidate job search and filters |
-| US-008 | Candidate apply with resume upload |
-| US-009 | Candidate application status tracking |
-| US-010 | Admin user management |
-| US-011 | Admin content moderation |
-| US-012 | Admin system settings |
-| US-013 | Admin reporting |
-| US-014 | Responsive UI and WCAG 2.1 AA |
-| US-015 | Security and data protection |
-| US-016 | Performance and scalability |
-| US-017 | CI/CD and cloud deployment |
-| US-018 | Finalize requirements specification document and obtain sign-off |
+Detailed **As a / I want / So that** stories and acceptance criteria: [docs/requirements/user-stories.md](../docs/requirements/user-stories.md).
+
+| User Story ID | Title / scope | Primary persona |
+|---------------|----------------|-----------------|
+| US-001 | Employer registration and authentication | Jordan Reyes (Employer) |
+| US-002 | Candidate registration and authentication | Priya Sharma (Candidate) |
+| US-003 | Admin authentication and access | Morgan Lee (Admin) |
+| US-004 | Role-based access control | All |
+| US-005 | Employer job posting and listing management | Employer |
+| US-006 | Employer application management | Employer |
+| US-007 | Candidate job search and filters | Candidate |
+| US-008 | Candidate apply with resume upload | Candidate |
+| US-009 | Candidate application status tracking | Candidate |
+| US-010 | Admin user management | Admin |
+| US-011 | Admin content moderation | Admin |
+| US-012 | Admin system settings | Admin |
+| US-013 | Admin reporting | Admin |
+| US-014 | Responsive UI and WCAG 2.1 AA | All |
+| US-015 | Security and data protection | All |
+| US-016 | Performance and scalability | All |
+| US-017 | CI/CD and cloud deployment | Operations |
+| US-018 | Finalize requirements specification document and obtain sign-off | PO / PM |
 
 ---
 
